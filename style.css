@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+  font-size: 16px;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 450px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.text {
+  padding: 7%;
+  text-align: center;
+}
+.title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.text p.subtitle {
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 25px;
+}
+
+.plan {
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 3%;
+}
+.plan-left {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.plan-left div {
+  margin-left: 20px;
+}
+.plan-left div h5 {
+  font-weight: 900;
+  font-size: 15px;
+  color: hsl(223, 47%, 23%);
+}
+.plan-left div p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+.plan a {
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  margin-right: 20px;
+  padding: 12px;
+  transition: color .3s ease;
+  
+}
+.plan a:hover {
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    
+  }
+.proceed-btn {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 12px;
+  transition: background-color .3s ease;
+}
+.proceed-btn:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+a.cancel-btn {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-decoration: none;
+    transition: color .3s ease; 
+}
+
+a.cancel-btn:hover {
+    color:hsl(223, 47%, 23%);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+  
+  @media only screen and (max-width: 425px) {
+    body {
+        background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-mobile.svg);
+       
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 87%;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    div.plan-box {
+        padding: 12px;
+    }
+
+    .plan-left div {
+        margin-left: 10px;
+    }
+
+    .proceed-btn,
+    a.cancel-btn,
+    .plan a {
+        font-size: 13px;
+    }
+
+    .text {
+        padding: 9% 7%;
+    }
+    .attribution {
+        padding: 5px; /* Adjust padding for better spacing on mobile */
+    }
+
+    .attribution a {
+        font-weight: bold; 
+        color: hsl(245, 75%, 52%);
+        text-decoration: none;
+    }
+
+    .attribution a:hover {
+        text-decoration: underline;
+    }
+}
