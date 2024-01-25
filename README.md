@@ -2,7 +2,8 @@
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Screenshot
-![Desktop-view](https://github.com/PriyankaTamhankar01/Order-summary-component/assets/90240653/05adacf5-7b4b-4ac6-ab0e-f47dbdc92af3)
+![Desktop-view](https://github.com/PriyankaTamhankar01/Order-summary-component/assets/90240653/b594e222-24ba-43fa-99cb-5efc7d76fdfe)
+
 ## Welcome! 👋
 
 Thanks for taking on this front-end coding challenge.
